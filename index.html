@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Currency Converter</title>
+    <link rel="stylesheet" href="Css/main.css" />
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300;400;600;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Lobster&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300;400;600;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <h1>Currency Converter</h1>
+    <ul class="txt-animation">
+      <li class="txt">Welcome to here in our small Website.</li>
+      <li class="txt">Convert now from EG Pound to Dollar.</li>
+    </ul>
+    <form id="form" action="">
+      <input type="number" min="1" placeholder="USD" id="dollar" class="usd" />
+      <input type="number" min="1" placeholder="EGP" id="pound" class="egp" />
+    </form>
+    <div id="change">
+      <div onclick="setColor(this.id)" id="darkcyan"></div>
+      <div onclick="setColor(this.id)" id="lightcoral"></div>
+      <div onclick="setColor(this.id)" id="cornflowerblue"></div>
+      <div onclick="setColor(this.id)" id="black"></div>
+    </div>
+
+    <p>
+      Copyright © 2022 <a href="#">Currency Converter </a>. All rights reserved.
+      Design by <span> Mahmouud Khaled</span>
+    </p>
+
+    <script src="JS/main.js"></script>
+  </body>
+</html>
